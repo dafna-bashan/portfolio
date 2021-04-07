@@ -1,0 +1,57 @@
+body {
+    margin: 0 auto;
+    position: absolute;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-difficult button {
+    margin: 5px;
+    font-size: 15px;
+}
+
+table {
+    margin: 0 auto;
+    position: relative;
+    border: none;
+}
+
+.board td {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    transition: background-color 0.5s;
+    background-color: rgb(0, 221, 221);
+    border-radius: 3px;
+    border: none;
+}
+
+.board td:hover {
+    background-color: rgb(0, 190, 190);
+}
+
+.msg {
+    height: 30px;
+    margin: 20px;
+}
+
+.btn-difficult {
+    margin: 10px;
+    height: 30px;
+}
+
+button {
+    background-color: rgb(157, 255, 255);
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    color: rgb(56, 56, 56);
+}
+
+
+/* .btn {
+    margin: 20px;
+    font-size: 20px;
+} */
